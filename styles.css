@@ -318,3 +318,24 @@ body {
   background: var(--color-accent);
   color: var(--color-on-accent);
 }
+
+.contact-form label[hidden],
+.contact-form button[hidden] {
+  display: none;
+}
+
+.form-honeypot {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.form-status {
+  margin: 4px 0 0 0;
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+  color: var(--color-muted-soft);
+}
